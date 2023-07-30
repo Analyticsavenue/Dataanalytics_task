@@ -1,0 +1,92 @@
+TASK 
+
+Question 1:
+  Create a Database product_db.
+
+Question 2:
+  Create a table with the name "product" with the following columns
+    product_id   - integer
+	product      - string -  size 10
+	quantity     - integer
+	price        - integer
+	purcahase_cost - integer
+    estimated_sale_price - float
+
+Question 3:
+ Display all column names and their datatype and size in product.
+ 
+Question 4:
+Insert the below two records into product table .
+-- 1st record with values
+			-- product_id : 1
+			-- Product : PayCard
+			-- Quantity: 2 
+			-- price : 300
+			-- Puchase_cost : 8000
+			-- estimated_sale_price: 9000.56
+-- 2nd record with values --
+			-- product_id : 2
+			-- Product : PayPoints
+			-- Quantity: 4
+			-- price : 200 
+			-- Puchase_cost : 7000
+			-- estimated_sale_price: 6700.56
+Question 5:
+  Add a column : "location" to the existing product table with data type varchar and size 50
+
+Question 6:
+  Update the value of the location
+   -- update location as USA for product_id = 1
+   -- update location as India for product_id = 2
+
+Question 7:
+ What is the value of location for product : ‘PayCard’?
+ 
+Question 8:
+  update the product column to size of 25
+
+Question 9:
+  Reduce the size of the location field from 50 to 20 and check if it is possible.   
+
+Question 10:
+   Update the quantity information of ‘PayCard’ product details .
+   -- For ‘PayCard’ product, Update the quantity from 2 to 10  
+ 
+Question 11:
+   insert one more row/record to the table
+    record with values
+			-- product_id : 4
+			-- Product : Creditcard
+			-- Quantity: 2 
+			-- price : 500
+			-- Puchase_cost : 900
+			-- estimated_sale_price: 750
+			-- location : India
+
+Question 12:
+   insert below two row/record to the table by using one query
+    record with values
+	1)		-- product_id : 5
+			-- Product : debitcard
+			-- Quantity: 4
+			-- price : 500
+			-- Puchase_cost : 2000
+			-- estimated_sale_price: 1850
+			-- location : UK
+			
+	2)      -- product_id : 6
+			-- Product : buyback
+			-- Quantity: 20 
+			-- price : 500
+			-- Puchase_cost : 10000
+			-- estimated_sale_price: 9800.95
+			-- location : USA
+			
+Question 13:
+   add a column zip_code to the product table
+			
+Question 14:
+   update zip_code to the product table by some random unique zip code to the product
+   
+Question 15:
+   drop the column zip_code from the table
